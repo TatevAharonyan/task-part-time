@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html, 
+body, 
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+#demo-result{
+  position: relative;
+  margin-top:15px;
+  width: 450px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#demo-layout{
+  max-width: 755px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#desc{
+  margin:15px 0;
+}
+
+#error-msg{
+  position: absolute;
+  top : 0;
+  left: 50%;
+  margin: 20px 0 20px -25%; 
+  color: rgb(173, 21, 21);
+  text-align: center;
+}
+
+
+#photo-from-wb,
+#template{
+  position: relative;
+  background-size: cover !important;
+  width: 100%;
+  height: 600px;
+ 
+}
+
+#template{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+     
+}
+
+#sales {
+  position: absolute;
+  left: 0;
+  top: 33px;
+  width: 65px;
+  height: 25px;
+  padding: 3px;
+  background: #d13c3b;
+  color:#faebeb;
+  text-align:right;
+  z-index: 9;
+  font-family: 'Lobster';
+  font-size: 20px;
+}
+
+
+#demo-test{
+  color:#ffffff;
+  background-color:#40a0ff;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}
+  
+#art{
+  width: 175px;
+  height: 48px;
+  line-height: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  border: 1px solid #40a0ff;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 5px;
+}
